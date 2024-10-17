@@ -1,0 +1,108 @@
+name: turath
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^14.2.7
+  font_awesome_flutter: ^10.7.0
+  flutter_svg: ^2.0.10+1
+  responsive_navigation_bar: ^5.0.2
+  scroll_snap_list: ^0.9.1
+  fan_carousel_image_slider: ^1.0.1
+  firebase_core: ^3.5.0
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.1
+  firebase_messaging: ^15.1.2
+  firebase_auth: ^5.3.0
+  google_sign_in: ^6.2.1
+  loading_animation_widget:
+  animated_read_more_text: ^0.0.6
+  modal_progress_hud_nsn: ^0.5.1
+  awesome_dialog: ^3.2.1
+  cupertino_icons: ^1.0.0
+  persistent_bottom_nav_bar: ^6.2.1
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.2
+  speech_to_text: ^7.0.0
+  permission_handler: ^11.1.0
+  get_it: ^8.0.0
+  provider: ^6.1.2
+
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Fustat
+      fonts:
+        - asset: assets/fonts/Fustat-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Fustat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Fustat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Fustat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Fustat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Fustat-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Fustat-ExtraLight.ttf
+          weight: 200
+    - family: EBGaramond
+      fonts:
+        - asset: assets/fonts/EBGaramond-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/EBGaramond-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/EBGaramond-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/EBGaramond-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/EBGaramond-Regular.ttf
+          weight: 400
+    - family: CormorantGaramond
+      fonts:
+        - asset: assets/fonts/CormorantGaramond-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/CormorantGaramond-BoldItalic.ttf
+          weight: 700
+        - asset: assets/fonts/CormorantGaramond-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/CormorantGaramond-SemiBoldItalic.ttf
+          weight: 600
+        - asset: assets/fonts/CormorantGaramond-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/CormorantGaramond-MediumItalic.ttf
+          weight: 500
+        - asset: assets/fonts/CormorantGaramond-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/CormorantGaramond-Italic.ttf
+          weight: 400
+        - asset: assets/fonts/CormorantGaramond-Light.ttf
+          weight: 300
+        - asset: assets/fonts/CormorantGaramond-LightItalic.ttf
+          weight: 300
+   
+
+
+
+flutter_assets:
+  assets_path: assets/images/
+  output_path: lib/core/utils
+  filename: app_assets.dart
+  field_prefix: null

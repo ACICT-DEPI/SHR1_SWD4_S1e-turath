@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "614902361919",
+    "project_id": "turathproject1",
+    "storage_bucket": "turathproject1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614902361919:android:03e2b56eef9f8b81d82d8a",
+        "android_client_info": {
+          "package_name": "com.example.turath"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4v1YHwCAV8KdR-2SOplQlK3t-sFPNu2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
